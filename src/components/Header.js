@@ -1,11 +1,13 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { BiLogoGmail } from "react-icons/bi";
+import { IoLogoLinkedin } from "react-icons/io";
 
 const Header = () => {
     return (
       <header className="text-center">
+        <IoLogoLinkedin />
         
-        <FontAwesomeIcon icon={['fab', 'linkedin']} className="text-white text-3xl hover:text-blue-300" />
+        <BiLogoGmail />
       </header>
     );
   };

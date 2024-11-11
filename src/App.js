@@ -1,11 +1,14 @@
 
 import './App.css';
+import React from 'react';
+import './IconLibrary';
+import Header from './components/Header.js';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-600 to-pink-600'>
+      <Header />
+    </div>
   );
 }
 

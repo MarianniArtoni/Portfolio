@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         font1: ['"Lucida Console"', '"Courier New"', 'monospace'],
+        poiret: ['"Poiret One"', 'sans-serif'],
       },
     },
   },
